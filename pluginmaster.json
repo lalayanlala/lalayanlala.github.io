@@ -71,6 +71,37 @@
     "DownloadLinkUpdate": "https://github.com/lalayanlala/DelvUI-JP/releases/download/v2.8.0.1/latest.zip",
     "DownloadLinkTesting": "https://github.com/lalayanlala/DelvUI-JP/releases/download/v2.8.0.1/latest.zip",
     "LastUpdate": 1792060148,
-    "Tags": ["UI", "Japanese", "日本語"]
+    "Tags": [
+      "UI",
+      "Japanese",
+      "日本語"
+    ]
+  },
+  {
+    "Author": "Lulua / original authors and contributors",
+    "Name": "Slice Is Right",
+    "InternalName": "SliceIsRight",
+    "AssemblyVersion": "1.0.0.0",
+    "Description": "ゴールドソーサーG.A.T.E.「斬魔・デ・三昧」で、竹が倒れる危険範囲を地面に表示します。",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "gold saucer",
+      "gate",
+      "yojimbo"
+    ],
+    "DalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "Punchline": "斬魔・デ・三昧で竹が倒れる危険範囲を表示します。",
+    "Changelog": "v1.0.0: Dalamud API 15／FF14 7.57対応。危険範囲の判定をメモリ直読みからDalamudのBaseId APIへ変更。",
+    "AcceptsFeedback": true,
+    "RepoUrl": "https://github.com/lalayanlala/SliceIsRight",
+    "DownloadLinkInstall": "https://github.com/lalayanlala/SliceIsRight/releases/download/v1.0.0.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/lalayanlala/SliceIsRight/releases/download/v1.0.0.0/latest.zip",
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "LastUpdate": "1792132320"
   }
 ]
