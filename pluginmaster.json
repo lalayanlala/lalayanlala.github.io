@@ -106,30 +106,30 @@
   },
   {
     "Author": "Lulua",
-    "Name": "MacroSlot",
+    "Name": "Macro Assist",
     "InternalName": "MacroSlot",
-    "AssemblyVersion": "1.0.1.0",
-    "Description": "指定したホットバーの1スロットだけを、個人または共通マクロへ差し替える小型プラグインです。/mslot personal|shared <マクロ番号> <ホットバー番号> <スロット番号> で操作します。",
+    "AssemblyVersion": "1.1.0.0",
+    "Description": "マクロ作成を補助するプラグインです。コマンド候補と対象を選んで、個人または共有マクロの指定行へ直接反映できます。/massistで開きます。/mslot personal|shared <マクロ番号> <ホットバー番号> <スロット番号> も引き続き利用できます。",
     "ApplicableVersion": "any",
     "Tags": [
-      "hotbar",
       "macro",
-      "utility"
+      "utility",
+      "hotbar"
     ],
     "DalamudApiLevel": 15,
     "LoadRequiredState": 0,
     "LoadSync": false,
     "CanUnloadAsync": false,
     "LoadPriority": 0,
-    "Punchline": "ホットバーの指定した1マスだけを、任意のマクロへ。",
-    "Changelog": "v1.0.1: 正常実行時のゲーム内チャットメッセージを非表示に変更。エラー表示は維持。",
+    "Punchline": "コマンド選択から、ゲーム内マクロへ直接反映。",
+    "Changelog": "v1.1.0: Macro Assistを追加。コマンド候補・対象選択から、個人／共有マクロの指定行へ直接反映できます。/mslotも継続対応。",
     "AcceptsFeedback": true,
     "RepoUrl": "https://github.com/lalayanlala/MacroSlot",
-    "DownloadLinkInstall": "https://github.com/lalayanlala/MacroSlot/releases/download/v1.0.1/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/lalayanlala/MacroSlot/releases/download/v1.0.1/latest.zip",
-    "DownloadLinkTesting": "https://github.com/lalayanlala/MacroSlot/releases/download/v1.0.1/latest.zip",
+    "DownloadLinkInstall": "https://github.com/lalayanlala/MacroSlot/releases/download/v1.1.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/lalayanlala/MacroSlot/releases/download/v1.1.0/latest.zip",
+    "DownloadLinkTesting": "https://github.com/lalayanlala/MacroSlot/releases/download/v1.1.0/latest.zip",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": 1792152324
+    "LastUpdate": 1792518839
   }
 ]
